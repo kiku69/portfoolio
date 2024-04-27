@@ -1,63 +1,69 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-100 font-sans">
-  
-  <nav class="bg-gray-800 text-white p-4">
-      <div class="container mx-auto flex justify-between items-center">
-          <a href="#" class="text-xl font-bold">Kristofer</a>
-          <ul class="flex space-x-4">
-              <li><a href="#" class="hover:text-gray-300">Home</a></li>
-              <li><a href="#about" class="hover:text-gray-300">About</a></li>
-              <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
-          </ul>
-      </div>
-  </nav>
-
-  <header class="bg-gray-900 text-white py-20">
-      <div class="container mx-auto text-center">
-          <h1 class="text-4xl font-bold">Welcome to My Portfolio</h1>
-          <p class="mt-4 text-lg">.</p>
-      </div>
+<body>
+  <header>
+    <div class="container">
+      <h1>Kristofer Mere Portfoolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="about" class="py-20">
-      <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-8">About Me</h2>
-          <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias incidunt omnis neque eius, rem accusantium cum recusandae aspernatur vitae dolorum sunt molestiae, sapiente tempore autem. Voluptatum quasi et enim consectetur.</p>
-      </div>
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio! I am a student in Kuressaare Ametikool, where im learning programming. I have finished Salme Põhikool and I have not been to kindergarten. Before comging to this school i have never learnd anything about programming, but now I know a bit how to make a website. I also know how to use Figma pretty well.</p>
+    </div>
   </section>
 
-  <section id="projects" class="py-20 bg-gray-200">
-      <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-8">Projects</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-             
-              <div class="bg-white rounded-lg p-6 shadow-md">
-                  <h3 class="text-xl font-bold mb-2">AI Startup</h3>
-                  <p class="mb-4">Lorem ipsum dolo sit amet consectetur adipisicing elit. Est animi deserunt perspiciatis dolorem. Nulla quam soluta amet excepturi voluptates illo, dolorem autem. Eligendi alias nisi voluptatibus ex omnis aspernatur totam..</p>
-                  <a href="#" class="text-blue-500 hover:underline">View Project</a>
-              </div>
-   
-              <div class="bg-white rounded-lg p-6 shadow-md">
-                  <h3 class="text-xl font-bold mb-2">Tailwind AI Startup</h3>
-                  <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit aliquid, illum voluptatum repellendus quod aut accusamus sapiente ab eveniet omnis. Repellat in consectetur repudiandae quaerat libero, expedita eius deleniti?</p>
-                  <a href="#" class="text-blue-500 hover:underline">View Project</a>
-              </div>
-       
-              <div class="bg-white rounded-lg p-6 shadow-md">
-                  <h3 class="text-xl font-bold mb-2">Figmaland</h3>
-                  <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque enim voluptates eveniet nam tempora, sunt dignissimos beatae ratione! Ratione et nulla laborum quos consectetur vero magni ullam distinctio praesentium tempora.</p>
-                  <a href="#" class="text-blue-500 hover:underline">View Project</a>
-              </div>
-          </div>
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-item">
+        <h3>AI Startup</h3>
+        <h4>This project was made with HTML, CSS</h4>
+        <p>I made this project from Figma. At the start this was a pretty hard project, because it was the first one i have ever done.</p>
       </div>
+      <div class="portfolio-item">
+        <h3>AI Startup Tailwind</h3>
+        <h4>This project was made with Tailwind</h4>
+        <p>I made this project from Figma. This project was also bad at the start, because it was the first time i used Tailwind. </p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Figmaland</h3>
+        <h4>This project was made with Tailwind</h4>
+        <p>I made this project from figma. Now this project was not the worst, because i have learned tailwind a bit more.</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Portfoolio</h3>
+        <h4>This project was made with HTML, CSS</h4>
+        <p>I made this project myself. This project was not the that bad, because i could do what i wanted.</p>
+      </div>
+    </div>
   </section>
 
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch with me, feel free to send me an email at <a href="mailto:kristofer.mere@ametikool.ee">kristofer.mere@ametikool.ee</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 My Portfolio.</p>
+    </div>
+  </footer>
 </body>
-
 </html>
